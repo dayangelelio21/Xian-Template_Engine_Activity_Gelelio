@@ -1,0 +1,98 @@
+<aside class="w-64 bg-gray-900 text-white min-h-[calc(100vh-4rem)] shrink-0">
+    <div class="p-6">
+
+        <!-- XianFire Logo / Brand -->
+        <div class="flex items-center gap-3 mb-8">
+
+            <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center">
+                <span class="font-bold text-lg">
+                    X
+                </span>
+            </div>
+
+            <div>
+                <h2 class="font-bold text-lg">
+                    XianFire
+                </h2>
+
+                <p class="text-xs text-gray-400">
+                    Management System
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Main Menu Label -->
+        <p class="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-3">
+            Main Menu
+        </p>
+
+
+        <!-- Navigation / Menu -->
+        <nav class="space-y-2">
+
+            <!-- Dashboard -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>🏠</span>
+
+                <span>
+                    Dashboard
+                </span>
+            </div>
+
+
+            <!-- Users -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>👥</span>
+
+                <span>
+                    Users
+                </span>
+            </div>
+
+
+            <!-- Products -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>📦</span>
+
+                <span>
+                    Products
+                </span>
+            </div>
+
+
+            <!-- Orders -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>🛒</span>
+
+                <span>
+                    Orders
+                </span>
+            </div>
+
+
+            <!-- Reports -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>📊</span>
+
+                <span>
+                    Reports
+                </span>
+            </div>
+
+
+            <!-- Settings -->
+            <div class="flex items-center gap-3 px-4 py-3 rounded-lg">
+                <span>⚙️</span>
+
+                <span>
+                    Settings
+                </span>
+            </div>
+
+        </nav>
+
+    </div>
+
+</aside>

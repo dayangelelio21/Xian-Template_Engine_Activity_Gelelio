@@ -1,0 +1,43 @@
+{{>head}}
+
+<body class="bg-gray-100 font-sans text-gray-800">
+
+    <div class="flex h-screen overflow-hidden">
+
+        <!-- Sidebar -->
+        {{>sidebar}}
+
+        <!-- Main Workspace -->
+        <div class="flex-1 flex flex-col min-w-0 overflow-hidden">
+
+            <!-- Header -->
+            {{>header}}
+
+            <!-- Main Content -->
+            <main class="flex-1 overflow-y-auto p-6 bg-gray-50">
+
+                <div class="max-w-7xl mx-auto space-y-6">
+
+                    <!-- Breadcrumbs -->
+                    {{>breadcrumbs}}
+
+                    <!-- Metrics -->
+                    {{>metric}}
+
+                    <!-- Table -->
+                    {{>table}}
+
+                </div>
+
+            </main>
+
+            <!-- Footer -->
+            {{>footer}}
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
